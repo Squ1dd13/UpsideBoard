@@ -11,3 +11,5 @@ include $(THEOS_MAKE_PATH)/tweak.mk
 
 after-install::
 	killall -9 SpringBoard
+SUBPROJECTS += upsideboardprefs
+include $(THEOS_MAKE_PATH)/aggregate.mk
